@@ -1,0 +1,11 @@
+const fs=require('node:fs'),assert=require('node:assert/strict'),vm=require('node:vm');
+const html=fs.readFileSync('index.html','utf8'),scripts=[...html.matchAll(/<script(?: [^>]*)?>([\s\S]*?)<\/script>/g)].map(x=>x[1]);
+const data=JSON.parse(scripts[0]);for(const s of scripts.slice(3))new vm.Script(s);
+assert.equal(data.runes.length,64);assert.equal(data.words.length,19);assert.equal(data.runes.filter(r=>r.active).length,44);assert.equal(data.runes.filter(r=>r.s15).length,12);
+assert.ok(data.runes.filter(r=>r.s15).every(r=>r.rarity==='符文'));assert.match(html,/S15 地狱馈赠/);assert.match(html,/仪祭符文/);assert.doesNotMatch(html,/当前不可用 \/ 历史|为历史数据|历史符文/);
+const ids=new Set(data.runes.map(r=>r.id));assert.equal(ids.size,64);assert.equal(data.runes.filter(r=>r.name==='塔尔').length,2);
+for(const w of data.words)for(const ing of w.recipe)assert.ok(ids.has(ing.id));
+const htmlIds=[...html.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]).filter(x=>!x.includes('$'));
+assert.equal(new Set(htmlIds).size,htmlIds.length,'static HTML IDs unique');
+assert.match(html,/unicorn-avatar/);assert.match(html,/name="color-scheme" content="light"/);
+console.log('PASS: syntax, rune identities, S15 labels, recipes, terminology, unique HTML IDs, theme markers');
