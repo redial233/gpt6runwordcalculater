@@ -33,3 +33,7 @@ node tests/vision-regression.cjs /path/to/test_input.png
 ```
 
 Input SHA-256: `83d62fda3702fcd31aa9bc0a6a6fa0e945fbda8facc92ef3749fafec65649565`. No visible stack digit is presented as a provisional quantity of 1 requiring review, not a confidently read digit. Recognition does not auto-select imports.
+
+## Quantity editing follow-up
+
+The focused browser retest exposed two existing interaction defects: editing then clicking + lost the click, and a filter change could re-enter inventory rendering from blur/change. Quantity input/change now commits data and updates the existing row without replacing DOM; +/- also preserves its controls. DOM regressions assert 5→6, decrement, stable click targets, no change-triggered render, filtering/restoring 44 rows, and saved state. The included browser script exercises the same paths, but this follow-up still requires independent real-browser retest.
