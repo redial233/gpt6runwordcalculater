@@ -1,0 +1,12 @@
+{
+  "name": "d4-s15-unicorn-runeworkshop",
+  "private": true,
+  "scripts": {
+    "test": "node tests/data.test.cjs && node tests/engine.test.cjs && node tests/dom.test.cjs && node tests/vision-regression.cjs",
+    "test:browser": "node tests/ui.test.cjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100",
+    "linkedom": "0.18.13"
+  }
+}
