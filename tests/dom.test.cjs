@@ -10,7 +10,7 @@ const ctx={document,window,Image,console,setTimeout,clearTimeout,TextDecoder,Tex
 ctx.self=ctx;vm.createContext(ctx);const scripts=[...html.matchAll(/<script(?: [^>]*)?>([\s\S]*?)<\/script>/g)].map(x=>x[1]);
 for(const i of [4,5,6,7])vm.runInContext(scripts[i],ctx);
 (async()=>{
-assert.equal(document.querySelectorAll('.class-btn').length,8);assert.ok(document.querySelectorAll('.word-card').length>0);
+assert.equal(document.querySelectorAll('.class-btn').length,8);assert.equal(document.querySelectorAll('.class-emblem img').length,8);assert.ok(document.querySelector('.hero-art img'));assert.ok(document.querySelector('.inventory-mascot'));assert.ok(document.querySelector('.ocr-title img'));assert.ok(document.querySelectorAll('.word-card').length>0);
 vm.runInContext("state.classId='rogue';state.inventory={S15_Rune_Effect_Tir:3,S15_Rune_Effect_Ral:3};state.weights.rogue=Object.fromEntries(DATA.words.map(w=>[w.id,0]));renderAll();",ctx);
 await document.getElementById('optimizeBtn').onclick();assert.match(document.getElementById('bestPlan').textContent,/总分 0/);
 for(const tab of ['upgrade','sockets','codex','craft']){vm.runInContext(`setTab('${tab}')`,ctx);assert.equal(document.getElementById('tab-'+tab).hidden,false);}

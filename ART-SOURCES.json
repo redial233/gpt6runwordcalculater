@@ -1,0 +1,77 @@
+{
+  "classLogos": [
+    {
+      "class": "barbarian",
+      "officialPage": "https://diablo4.blizzard.com/en-us/",
+      "sourceAsset": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt9d9ee1856ef9f25d/68f91748a36ff6139332bcdf/d4-classes-icon-barbarian-base.webp",
+      "sourceSha256": "dfe3d96977cc5434618e90d475df3dc816b4c5d505ac4e5dc6197f19ee555cb2",
+      "embeddedSha256": "cfc38dfea15b51a1ff4137d62cd83b4c8ed933ebf9c9b8b50c1dc790db3fbe6a",
+      "preparation": "Resized proportionally to at most 210×210 and WebP encoded; official symbol not redrawn."
+    },
+    {
+      "class": "druid",
+      "officialPage": "https://diablo4.blizzard.com/en-us/",
+      "sourceAsset": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltcb8addea86d1bd26/69016cf1aff6a8d8bc24cdf3/d4-classes-icon-druid-base.webp",
+      "sourceSha256": "166a6ba03c5722a88af1360d18b2e81e7108af48421b10485aa55978379f80ed",
+      "embeddedSha256": "8700aef4cee3af582e9c866cf4187bb261819b9923944c6478bb27667435a1a1",
+      "preparation": "Resized proportionally to at most 210×210 and WebP encoded; official symbol not redrawn."
+    },
+    {
+      "class": "necromancer",
+      "officialPage": "https://diablo4.blizzard.com/en-us/",
+      "sourceAsset": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt661b7608e84abb03/6902737a27dd88588a8af517/d4-classes-icon-necromancer-base.webp",
+      "sourceSha256": "8e49b1e2d06ecf8649a69a355cb3978872820fa607bf4d043f28c040c25a9580",
+      "embeddedSha256": "d69e10b8276888ff19261c3274025b81c8191b4fc7fb6670ef999124e4da4210",
+      "preparation": "Resized proportionally to at most 210×210 and WebP encoded; official symbol not redrawn."
+    },
+    {
+      "class": "rogue",
+      "officialPage": "https://diablo4.blizzard.com/en-us/",
+      "sourceAsset": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt8b32308ddd9e92ae/69027340b415dd9fa6532324/d4-classes-icon-rogue-base.webp",
+      "sourceSha256": "38b3ef40efbf895f5b4f39f9bd03ed91a7de7ae4f7014fca97316f7673e0f489",
+      "embeddedSha256": "6456e55dd1a8597fe05f4db5af3e726602c7fef9ff7dd94692065437a486a093",
+      "preparation": "Resized proportionally to at most 210×210 and WebP encoded; official symbol not redrawn."
+    },
+    {
+      "class": "sorcerer",
+      "officialPage": "https://diablo4.blizzard.com/en-us/",
+      "sourceAsset": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt546da9238ea4f3bd/68f931fdfbad57d9664726ae/d4-classes-icon-sorcerer-base.webp",
+      "sourceSha256": "e7f96085d49f1f6d083de3d7140e6bc9c27bbbb1f2349a3ea95d23a406ce32e9",
+      "embeddedSha256": "553c5a72933d5c98dfb6f140c18c60902078df30975c5850f1857428f0367bee",
+      "preparation": "Resized proportionally to at most 210×210 and WebP encoded; official symbol not redrawn."
+    },
+    {
+      "class": "spiritborn",
+      "officialPage": "https://diablo4.blizzard.com/en-us/",
+      "sourceAsset": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt394ed829a03605bc/690eb918adac4137575c4854/d4-classes-icon-spiritborn-base.webp",
+      "sourceSha256": "e749f06a4056c2cc551d0719d21edb04967f8054a4c8920a80bb912ad8ecce0c",
+      "embeddedSha256": "3018509ed2840b09a3c8fd3919e182f4f967918db44fed6b0603cddf073b9891",
+      "preparation": "Resized proportionally to at most 210×210 and WebP encoded; official symbol not redrawn."
+    },
+    {
+      "class": "paladin",
+      "officialPage": "https://diablo4.blizzard.com/en-us/",
+      "sourceAsset": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt29aa1ffc9f1100a7/691f86fbfb2fd9d1a3da4672/PaladinIcon_Static.png",
+      "sourceSha256": "f3757967b015e87793cfafcc735304a556ef1e84d944943c8a1a19c965f89ba9",
+      "embeddedSha256": "b13da8ad72588173f4de875478de3a4a5232b0b91988009088eccafd7c675fcd",
+      "preparation": "Resized proportionally to at most 210×210 and WebP encoded; official symbol not redrawn."
+    },
+    {
+      "class": "warlock",
+      "officialPage": "https://diablo4.blizzard.com/en-us/",
+      "sourceAsset": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltbfee88ee8489a8f3/698117597a4244696a68c865/d4-classes-icon-warlock-base.png",
+      "sourceSha256": "9212fcacb04be8a2ee913f659ee2b884c3035e99a2f202d6cbc93fb7315ae999",
+      "embeddedSha256": "c00e8e73949d033d59618692222072c9d779e4e8063a341dc05cb04afd976a5d",
+      "preparation": "Resized proportionally to at most 210×210 and WebP encoded; official symbol not redrawn."
+    }
+  ],
+  "unicornArt": {
+    "type": "Original fan art, not official artwork",
+    "assets": [
+      "unicorn-main-clean-v2.webp",
+      "unicorn-sd-happy.webp",
+      "unicorn-sd-concerned.webp",
+      "unicorn-sd-idle.webp"
+    ]
+  }
+}

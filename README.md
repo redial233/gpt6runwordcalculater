@@ -36,3 +36,10 @@ npm install --no-save linkedom @napi-rs/canvas
 node tests/dom.test.cjs
 node tests/vision-regression.cjs
 ```
+
+
+## 独角兽视觉版
+
+角色主视觉、对话气泡与名牌、收藏区和识别弹窗的 SD 角色陪伴。八职业按钮使用暴雪官方网站对应职业徽记（出处和原始文件校验见 ART-SOURCES.json），不再使用字符代替。所有图像仍内嵌，下载 HTML 后可离线运行。
+
+浏览器回归通过 GitHub Actions 运行并保存 1440、390、360px 截图；本地使用 `npx playwright install chromium` 后运行 `npm run test:browser`。可用 CHROMIUM_PATH 指定已安装的浏览器。
